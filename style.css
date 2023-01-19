@@ -1,0 +1,260 @@
+/* base css */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header area css start  */
+
+.header-area {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+
+.header-main-blk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo a {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header-menu ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.header-menu ul li a {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.header-menu ul li a:hover {
+    color: #FF900E;
+}
+
+
+/* Banner area css start  */
+
+.banner-area {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.banner-content {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.banner-content h1 {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.common-btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .3s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.common-btn:hover {
+    color: #fff;
+    background-color: #116514;
+}
+
+.banner-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* Feature area css start  */
+
+.feature-area {
+    padding-top: 85px;
+    padding-bottom: 130px;
+}
+
+.feature-main-blk {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.feature-img-blk {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 50%;
+}
+
+.feature-single-img img {
+    width: 100%;
+}
+
+.feature-content {
+    width: 50%;
+}
+
+.feature-content h2 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gray-color {
+    color: #727272;
+    font-weight: 500;
+}
+
+.orange-color {
+    color: #FF900E;
+    display: block;
+}
+
+.feature-content p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.feature-content a {
+    margin-left: 0;
+}
+
+/* Service area css start  */
+
+.service__area {
+    padding-bottom: 168px;
+}
+
+.service__main__blk {
+    display: flex;
+    gap: 140px;
+}
+
+.service__main__content {
+    width: 50%;
+}
+
+.service__img__blk {
+    width: 50%;
+    position: relative;
+}
+
+.service__experience {
+    position: absolute;
+    left: -60px;
+    bottom: 0px;
+    background-color: #FF900E;
+    padding: 45px 42px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.service__experience h4 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.service__experience p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.service__img__blk img {
+    width: 100%;
+}
+
+.service__title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.service__title h2 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.service_info {
+    margin-bottom: 30px;
+}
+
+.service_info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.service__single__blk {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px #eee;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.service__single__blk h4 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.service__single__blk p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
